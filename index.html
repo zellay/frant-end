@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Front-End Website</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="test.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- taskbar section start -->
+    <section>
+      <header>
+        <div class="container">
+          <div class="taskbar"></div>
+          <div class="navbar">
+            <nav>
+              <ul class="b">
+                <li><a class="navigation" href="#">Home</a></li>
+                <li><a class="navigation" href="#">Our Recommendations</a></li>
+                <li><a class="navigation" href="#">Prices</a></li>
+                <li><a class="navigation" href="#">Works</a></li>
+                <li><a class="navigation" href="#">Testimonia</a></li>
+                <i onclick="hidebar()" class="ri-menu-line"></i>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="a">
+                <li><a class="navigation" href="#">Home</a></li>
+                <li><a class="navigation" href="#">Our Recommendations</a></li>
+                <li><a class="navigation" href="#">Prices</a></li>
+                <li><a class="navigation" href="#">Works</a></li>
+                <li><a class="navigation" href="#">Testimonia</a></li>
+                <i onclick="showsidbar()" class="ri-eye-close-fill"></i>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- taskbar section end -->
+    <!-- home section start  -->
+    <div class="homesection">
+      <div class="txthome">
+        <h1>
+          Welcome to my <br />
+          website!
+        </h1>
+        <p>
+          If you're looking for a stunning web application in React.js or <br />
+          Next.js, you are at the right place. I can do front-end web
+          development
+          <br />
+          in React.js/TypeScript. My goal is to help companies to make their
+          <br />
+          online presence like e-commerce stores and business websites.
+        </p>
+      </div>
+      <div class="imghome">
+        <img src="imges/50.png" alt="Home Image" />
+      </div>
+    </div>
+    <!-- home section ends  -->
+    <!-- about us section start  -->
+    <div class="mainsection">
+      <h1>Front<em> End</em> Development</h1>
+      <img
+        class="insideimg"
+        src="imges/pngtree-future-technology-mobile-internet-business-25d-mobile-phone-png-image_2624813-removebg-preview.png"
+        alt="Inside Image"
+      />
+      <img
+        class="outsideimg"
+        src="imges/1679683081898.png"
+        alt="Outside Image"
+      />
+    </div>
+    <!-- about us section ends -->
+    <!-- our recommendation bar start -->
+    <div class="boxes">
+      <h1>Recommendations</h1>
+      <div class="box1"></div>
+      <div class="box2"><h1></h1></div>
+      <div class="box3"><h1></h1></div>
+      <div class="box4"><h1></h1></div>
+    </div>
+    <!-- our recommendation bar ends-->
+    <!-- prices section start  -->
+    <div class="pricestabs">
+      <h1>Prices</h1>
+      <div class="tab1">
+        <span>
+          $100 Save up to 15% with Subscribe to Save Landing Page 1 screen in
+          React
+        </span>
+        <br />
+        <h4>
+          2-day delivery <br />
+          1 Revision
+        </h4>
+        <ul>
+          <li>1 page</li>
+          <li>Content upload</li>
+          <li>Responsive design</li>
+          <li>Detailed code comments</li>
+          <li>Source code</li>
+        </ul>
+      </div>
+      <div class="tab2">
+        <span>
+          $300 Save up to 15% with Subscribe to Save Standard 3 Page Website 3
+          screens in React
+        </span>
+        <br />
+        <h4>
+          5-day delivery <br />
+          1 Revision
+        </h4>
+        <ul>
+          <li>3 pages</li>
+          <li>Content upload</li>
+          <li>Responsive design</li>
+          <li>Source code</li>
+          <li>Detailed code comments</li>
+        </ul>
+      </div>
+      <div class="tab3">
+        <span>
+          $500 Save up to 15% with Subscribe to Save Pro 5 Page Website 5
+          Screens in React
+        </span>
+        <br />
+        <h4>
+          7-day delivery <br />
+          1 Revision
+        </h4>
+        <ul>
+          <li>5 pages</li>
+          <li>Content upload</li>
+          <li>Responsive design</li>
+          <li>Source code</li>
+          <li>Detailed code comments</li>
+          <li>Recent work</li>
+        </ul>
+      </div>
+    </div>
+    <!-- prices section  ends -->
+    <!-- recent examples section start -->
+    <div class="manimgs">
+      <h1>Recent Examples</h1>
+      <img class="img1" src="imges/images (1).jfif" alt="Example Image 1" />
+      <img class="img2" src="imges/images (2).jfif" alt="Example Image 2" />
+      <img class="img3" src="imges/images (3).jfif" alt="Example Image 3" />
+      <img class="img4" src="imges/images (4).jfif" alt="Example Image 4" />
+      <img class="img5" src="imges/images (5).jfif" alt="Example Image 5" />
+      <img class="img6" src="imges/images (6).jfif" alt="Example Image 6" />
+      <img class="img7" src="imges/images.jfif" alt="Example Image 7" />
+    </div>
+    <!-- recent examples section ends -->
+    <!-- testimonia bar starts -->
+    <h1 class="testemoniah1">Testimonia</h1>
+    <div class="maintestemonia">
+      <div class="testm1">
+        <h3>
+          Fast and accurate work per description, professional and experienced.
+          Did not have to explain a lot.
+        </h3>
+        <img src="imges/download (3).jfif" alt="Testimonia Image 1" />
+      </div>
+      <div class="testm2">
+        <h3>
+          Worked quickly and efficiently to deliver a high quality product!
+        </h3>
+        <img src="imges/download (1).jfif" alt="Testimonia Image 2" />
+      </div>
+      <div class="testm3">
+        <h3>
+          As always excellent in getting it done on time. Understanding of
+          requirements and attention to details is fantastic with proactive
+          communication.
+        </h3>
+        <img src="imges/download (2).jfif" alt="Testimonia Image 3" />
+      </div>
+      <div class="testm4">
+        <h3>
+          I highly recommend him. He pays attention to details and modifies the
+          submission based on your needs.
+        </h3>
+        <img src="imges/download (4).jfif" alt="Testimonia Image 4" />
+      </div>
+      <div class="testm5">
+        <h3>
+          Always goes above and beyond, even when there are changes at the end
+          of the project.
+        </h3>
+        <img src="imges/images (7).jfif" alt="Testimonia Image 5" />
+      </div>
+      <div class="testm6">
+        <h3>Great job!</h3>
+        <img src="imges/50.png" alt="Testimonia Image 6" />
+      </div>
+    </div>
+    <!-- testimonia bar ends  -->
+    <!-- get started bar start -->
+    <div class="getstarted">
+      <a href="http://127.0.0.1:5500/h.html" class="button">
+        <span>Get Started</span>
+      </a>
+      <ul>
+        <li><h3>Fast</h3></li>
+        <li><h3>Using Templates Helping for Design</h3></li>
+        <li><h3>Good Price</h3></li>
+        <li><h3>One-Time Customizable</h3></li>
+      </ul>
+    </div>
+    <!-- get started bar ends  -->
+    <!-- questions bar starts -->
+    <div class="questionbar">
+      <h1>Ask Me</h1>
+      <div class="input">
+        <input type="text" required placeholder="       Ask Us a Question" />
+      </div>
+      <button>Submit</button>
+    </div>
+    <!-- questions bar ends  -->
+    <!-- the last bar starts -->
+    <div class="footer">
+      <div class="contactsec">
+        <h1>Contact</h1>
+        <p>
+          Email: zellitayman2007@gmail.com
+          <br />
+          Phone: 0796236459
+        </p>
+      </div>
+      <div class="sections">
+        <h3>Map</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Recommendations</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Testimonia</a></li>
+        </ul>
+        <!-- social media contacts start -->
+        <!-- facebook -->
+        <a href="#"><i class="ri-facebook-line"></i></a>
+        <!-- insta -->
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <!-- x -->
+        <a href="#"><i class="ri-twitter-x-line"></i></a>
+        <!-- telegram -->
+        <a href="#"><i class="ri-telegram-fill"></i></a>
+      </div>
+      <!-- social media contacts ends  -->
+      <script src="app.js"></script>
+    </div>
+    <!-- the last bar ends -->
+  </body>
+</html>
